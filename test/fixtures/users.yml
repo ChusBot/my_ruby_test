@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chat_id: 1
+  name: MyString
+  birthday: MyString
+  subscribed: false
+
+two:
+  chat_id: 1
+  name: MyString
+  birthday: MyString
+  subscribed: false

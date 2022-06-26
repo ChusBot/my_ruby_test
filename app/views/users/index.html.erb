@@ -2,7 +2,9 @@
 <ul>
   <% @users.each do |u| %>
     <li>
-        <%= link_to u.name, u %>
+      <%= link_to u.name, u %>
     </li>
   <% end %>
 </ul>
+
+<%= link_to "New User", new_user_path %>
